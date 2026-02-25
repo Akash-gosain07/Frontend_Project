@@ -27,7 +27,7 @@ export function SalesDistribution({ data }: SalesDistributionProps) {
 
     return (
         <Card className="h-[400px] flex flex-col">
-            <Title size="sm" className="mb-4">Quarterly Distribution</Title>
+            <Title size="sm" className="mb-4">Sales Distribution (Pie Chart)</Title>
             <div className="flex-1 min-h-0">
                 <ResponsiveContainer width="100%" height="100%">
                     <PieChart>
@@ -35,7 +35,7 @@ export function SalesDistribution({ data }: SalesDistributionProps) {
                             data={quarterlyData}
                             cx="50%"
                             cy="50%"
-                            innerRadius={60}
+                            innerRadius={0}
                             outerRadius={100}
                             fill="#8884d8"
                             paddingAngle={5}
