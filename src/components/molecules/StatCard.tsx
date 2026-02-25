@@ -22,8 +22,8 @@ export function StatCard({ title, value, trend, icon = "dollar", subtext }: Stat
 
     return (
         <Card className="flex flex-col gap-4 relative overflow-hidden group">
-            <div className="absolute top-0 right-0 p-4 opacity-5 group-hover:opacity-10 transition-opacity text-foreground">
-                <Icon size={80} />
+            <div className="absolute bottom-4 right-4 p-0 opacity-[0.015] group-hover:opacity-[0.04] transition-all duration-500 transform scale-100 group-hover:scale-110 text-foreground">
+                <Icon size={64} strokeWidth={0.75} />
             </div>
 
             <div className="flex justify-between items-start z-10">
