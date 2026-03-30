@@ -55,4 +55,4 @@ src/
 
 -   **Atoms**: `Card`, `Button`, `Title` - Smallest indivisible units.
 -   **Molecules**: `StatCard`, `YearSelector` - Groups of atoms working together.
--   **Organisms**: `SalesChart`, `SalesDistribution` - Complex UI sections forming distinct parts of the interface.
+-   **Organisms**: `SalesChart`, `SalesDistribution` - Complex UI sections forming distinct parts of the interesting interface.
